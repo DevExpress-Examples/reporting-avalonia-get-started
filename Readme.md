@@ -10,10 +10,10 @@ This example shows how to load a report from a file, configure the report to ret
 
 ## Implementation
 
-The previously created report that uses JSON data from the https://northwind.netcore.io/customers.json location  is saved to a report layout file (*.repx).
+The previously created report that uses JSON data from a remote location <!-- https://northwind.netcore.io/customers.json --> is saved to a report layout file (*.repx).
 If you are using VSCode Avalonia Extension to develop Avalonia-based apps, you can also install the [DevExpress Report Designer VSCode Extension](https://community.devexpress.com/blogs/reporting/archive/2023/10/30/reporting-create-and-modify-devexpress-reports-in-vscode-on-macos-and-linux-ctp.aspx) to run the Report Wizard that enables you to create, edit, and save a report.
 
-The report created earlier using JSON data from https://northwind.netcore.io/customers.json is saved to a report layout file (.repx ). If you're using the VSCode Avalonia Extension to develop Avalonia-based applications, consider installing the [DevExpress Report Designer VSCode Extension](https://community.devexpress.com/blogs/reporting/archive/2023/10/30/reporting-create-and-modify-devexpress-reports-in-vscode-on-macos-and-linux-ctp.aspx). This extension allows you to run the Report Wizard and makes it easier to create, edit and save reports.
+The report created earlier using JSON data from a remote location <!-- https://northwind.netcore.io/customers.json --> is saved to a report layout file (.repx ). If you're using the VSCode Avalonia Extension to develop Avalonia-based applications, consider installing the [DevExpress Report Designer VSCode Extension](https://community.devexpress.com/blogs/reporting/archive/2023/10/30/reporting-create-and-modify-devexpress-reports-in-vscode-on-macos-and-linux-ctp.aspx). This extension allows you to run the Report Wizard and makes it easier to create, edit and save reports.
 
 
 To open a report layout file (*.repx) at runtime, add it to the Avalonia `Assets` folder in the project.
