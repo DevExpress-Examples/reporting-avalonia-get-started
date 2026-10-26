@@ -26,7 +26,7 @@ Register a custom `IJsonSourceCustomizationService` service for the report insta
 
 - [MainView.axaml](AvaloniaApplication1/AvaloniaApplication1/Views/MainView.axaml)
 - [MainView.axaml.cs](AvaloniaApplication1/AvaloniaApplication1/Views/MainView.axaml.cs)
-- [AvaloniaApplication1.Browser/Program.cs](AvaloniaApplication1/AvaloniaApplication1.Browser/Program.cs)
+- [Browser/Program.cs](AvaloniaApplication1/Browser/Program.cs)
 
 ## Documentation
 
