@@ -6,6 +6,10 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia.Browser" Version="$(AvaloniaVersion)" />
+    <!--DevExpress.Drawing.Skia brings SkiaSharp 3.x, while Avalonia references WebAssembly native assets for SkiaSharp 2.88.
+    Native assets must match the managed SkiaSharp/HarfBuzzSharp versions, otherwise the wasm linker fails with undefined symbols.-->
+    <PackageReference Include="SkiaSharp.NativeAssets.WebAssembly" Version="3.119.1" />
+    <PackageReference Include="HarfBuzzSharp.NativeAssets.WebAssembly" Version="8.3.1.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AvaloniaApplication1\AvaloniaApplication1.csproj" />
